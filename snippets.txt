@@ -1,0 +1,1 @@
+am start -a android.intent.action.INSERT -t vnd.android.cursor.dir/contact -e name "Test Contact" -e phone "+111111"
