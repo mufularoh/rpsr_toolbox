@@ -1,6 +1,7 @@
 #home_screen {
     layout: grid;
     grid-size: 3 1;
+    grid-columns: 32 1fr 32; 
 }
 .main_pane {
     padding-top: 3;
@@ -13,7 +14,27 @@
 #left_header {
     layout: grid;
     grid-size: 2 1;
+    height: 1;
 }
 #time_left {
     text-align: right;
+}
+
+PSRDirectory {
+    height: 1fr;
+    padding-top: 1;
+    Static {
+        margin-top: 1;
+        margin-left: 1;
+    }
+}
+
+#psr_data_outer {
+    padding-right: 1;
+    padding-left: 1;
+    border-left: solid white;
+    height: 100%;
+}
+Digits {
+    padding-bottom: 1;
 }
